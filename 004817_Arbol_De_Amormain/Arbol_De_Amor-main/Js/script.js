@@ -161,7 +161,7 @@ function showCountdown() {
 
     container.innerHTML =
       `Llevamos juntos: <b>${days}</b> días<br>` +
-      `Segundo Mes: <b>${eventDays}d ${eventHours}h ${eventMinutes}m ${eventSeconds}s</b>`;
+      `Tercer Mes: <b>${eventDays}d ${eventHours}h ${eventMinutes}m ${eventSeconds}s</b>`;
     container.classList.add('visible');
   }
   update();
