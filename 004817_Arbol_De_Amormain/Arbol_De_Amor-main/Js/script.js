@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Para mi sol☀️:\n\nQuizas no siempre lo muestre como quisiera, pero dentro de mi hay un cariño inmenso por ti.\n\nTe amo mas de lo que mis gestos alcanzan a expresar.\n\ncada cosa que haces me saca una sonrisa y aunque no lo creas, para mi eres la mas bonita\n\ncada dia mi corazon vuelve a elegirte sin dudar.`;  } else {
+    text = `Para mi sol☀️:\n\nAmoooor, otro mes juntos y no seraa el ultimooo, te amo mi cuchifluuu\n\nQuizas no siempre lo muestre como quisiera, pero dentro de mi hay un cariño inmenso por ti.\n\nTe amo mas de lo que mis gestos alcanzan a expresar.\n\ncada cosa que haces me saca una sonrisa y aunque no lo creas, para mi eres la mas bonita\n\ncada dia mi corazon vuelve a elegirte sin dudar.`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
